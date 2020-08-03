@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--QUESTION 1 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_1" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que1_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que1_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que1_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que1_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que1_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 2 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_2" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que2_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que2_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que2_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que2_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que2_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 3 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_3" />
+
+                <EditText
+                    android:id="@+id/s2_que3_et"
+                    style="@style/AppTheme.EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 4 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_4" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que4_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que4_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que4_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que4_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que4_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 5 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dips_8">
+
+                    <CheckBox
+                        android:id="@+id/s2_que5_cb1"
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que5_cb1" />
+
+                    <CheckBox
+                        android:id="@+id/s2_que5_cb2"
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que5_cb2" />
+
+                    <CheckBox
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que5_cb3" />
+
+                    <CheckBox
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que5_cb4" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 6 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_6" />
+
+                <EditText
+                    android:id="@+id/s2_que6_et"
+                    style="@style/AppTheme.EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 7 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_7" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que7_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que7_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que7_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que7_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que7_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 8 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_8" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que8_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que8_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que8_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que8_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que8_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 9 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_9" />
+
+                <EditText
+                    android:id="@+id/s2_que9_et"
+                    style="@style/AppTheme.EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 10 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_10" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que10_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que10_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que10_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que10_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que10_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 11 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_11" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dips_8">
+
+                    <CheckBox
+                        android:id="@+id/s2_que11_cb1"
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que11_cb1" />
+
+                    <CheckBox
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que11_cb2" />
+
+                    <CheckBox
+                        android:id="@+id/s2_que11_cb3"
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que11_cb3" />
+
+                    <CheckBox
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que11_cb4" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 12 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_12" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que12_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que12_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que12_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que12_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que12_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 13 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_13" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que13_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que13_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que13_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que13_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que13_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 14 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_14" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que14_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que14_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que14_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que14_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que14_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 15 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_15" />
+
+                <EditText
+                    android:id="@+id/s2_que15_et"
+                    style="@style/AppTheme.EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 16 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_16" />
+
+                <EditText
+                    android:id="@+id/s2_que16_et"
+                    style="@style/AppTheme.EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 17 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_17" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que17_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que17_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que17_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que17_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que17_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 18 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_18" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que18_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que18_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que18_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que18_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que18_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 19 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_19" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dips_8">
+
+                    <CheckBox
+                        android:id="@+id/s2_que19_cb1"
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que19_cb1" />
+
+                    <CheckBox
+                        android:id="@+id/s2_que19_cb2"
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que19_cb2" />
+
+                    <CheckBox
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que19_cb3" />
+
+                    <CheckBox
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que19_cb4" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 20 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_20" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dips_8">
+
+                    <CheckBox
+                        android:id="@+id/s2_que20_cb1"
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que20_cb1" />
+
+                    <CheckBox
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que20_cb2" />
+
+                    <CheckBox
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que20_cb3" />
+
+                    <CheckBox
+                        android:id="@+id/s2_que20_cb4"
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que20_cb4" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 21 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_21" />
+
+                <EditText
+                    android:id="@+id/s2_que21_et"
+                    style="@style/AppTheme.EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 22 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_22" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que22_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que22_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que22_r2" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 23 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_23" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que23_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que23_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que23_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que23_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que23_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 24 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_10" />
+
+                <RadioGroup
+                    android:id="@+id/s2_que24_radios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dips_8">
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que24_r1" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que24_r2" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que24_r3" />
+
+                    <RadioButton
+                        style="@style/AppTheme.RadioStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s2_que24_r4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!--QUESTION 25 HERE-->
+        <android.support.v7.widget.CardView
+            style="@style/AppTheme.MarginType1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/dips_8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/AppTheme.TextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s2_que_25" />
+
+                <EditText
+                    android:id="@+id/s2_que25_et"
+                    style="@style/AppTheme.EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

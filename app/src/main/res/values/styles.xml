@@ -1,0 +1,67 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.MarginType1">
+        <item name="android:layout_marginLeft">@dimen/dips_16</item>
+        <item name="android:layout_marginRight">@dimen/dips_16</item>
+        <item name="android:layout_marginTop">@dimen/dips_8</item>
+        <item name="android:layout_marginBottom">@dimen/dips_8</item>
+    </style>
+
+
+    <style name="AppTheme.MarginType2">
+        <item name="android:layout_marginLeft">@dimen/dips_16</item>
+        <item name="android:layout_marginRight">@dimen/dips_16</item>
+        <item name="android:layout_marginTop">@dimen/dips_4</item>
+        <item name="android:layout_marginBottom">@dimen/dips_4</item>
+    </style>
+
+
+    <style name="AppTheme.TextViewStyle">
+        <item name="android:padding">@dimen/dips_8</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+    <style name="AppTheme.RadioStyle">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:paddingStart">@dimen/dips_16</item>
+        <item name="android:paddingEnd">@dimen/dips_16</item>
+    </style>
+
+
+    <style name="AppTheme.EditTextStyle">
+        <item name="android:hint">@string/edit_text_hint</item>
+        <item name="android:paddingStart">@dimen/dips_8</item>
+        <item name="android:paddingEnd">@dimen/dips_8</item>
+    </style>
+
+    <style name="MenuOverflowTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:itemBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/duskYellow</item>
+    </style>
+
+
+
+
+    <style name="AuthTheme" parent="AppTheme">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">onlinescholar</string>
+
+
+    <string name="user_details_activity">UserDetailsActivity</string>
+    <string name="set_one_activity">SetOneActivity</string>
+    <string name="set_two_activity">SetTwoActivity</string>
+    <string name="set_three_activity">SetThreeActivity</string>
+
+
+    <string name="csi_logo">CSI Logo</string>
+
+
+    <string name="teamETError">Team No. Required</string>
+    <string name="nameETError">Name Required</string>
+    <string name="required">Required</string>
+    <string name="title_team"> Team \u0020</string>
+    <string name="good_luck">Good Luck!</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="rating">Rate Us</string>
+    <string name="feedback_text">How was your overall Experience?</string>
+    <string name="suggestion">How can we improve it further</string>
+    <string name="rating_tv">You rated : \u0020</string>
+    <string name="feedback_submit_success">Thank You for your Feedback!</string>
+    <string name="feedback_submit_failed">You\'ve already Responded</string>
+
+
+    <string name="event_name">ONLINE SCHOLAR</string>
+    <string name="round_name">STUDENT DEATAILS</string>
+    <string name="mrits">Babu Banarasi Das Engineering College</string>
+    <string name="csi">Computer Science</string>
+    <string name="credits">𝔪𝔞𝔡𝔢 𝔴𝔦𝔱𝔥 \u2764 by <b>TEAM CHEEMS</b></string>
+
+
+    <string name="team_no">Team No.</string>
+    <string name="name">Name</string>
+    <string name="year">Year \u0020\u0020\u0020\u0020 :</string>
+    <string name="branch">Branch :</string>
+    <string name="set">Set \u0020\u0020\u0020\u0020\u0020\u0020 :</string>
+    <string name="read_instructions">Read the instructions first</string>
+    <string name="instructions"><u>Read Instructions</u></string>
+    <string name="lets_start">Let\'s Start</string>
+    <string name="empty_fields">Oops! All Answers Required</string>
+
+    <string-array name="array_branch">
+        <item>CSE</item>
+        <item>IT</item>
+        <item>ECE</item>
+        <item>CE</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="array_year">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Final</item>
+    </string-array>
+
+    <string-array name="array_set">
+        <item>SET 1</item>
+        <item>SET 2</item>
+    </string-array>
+
+
+    <string name="exit_title">Exit</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="close">Close</string>
+    <string name="instructions_message"> 1. Blanks carry <b>FIVE</b> points each. \n
+        2. Multiple Answer question <i>(CheckBox)</i> carry <b>TWO</b> points. \n
+        3. Single Answer question <i>(RadioButton)</i> carry <b>ONE</b> point. \n
+        4. Number of Attempts are incremented each time the App is minimized. \n
+        5. If the Number of Attempts are more than <b>ONE</b> the team will be <b>disqualified</b>.</string>
+
+
+    <string name="submit">Submit</string>
+    <string name="title_score">Score :</string>
+    <string name="team_score"><b>Team No. :</b></string>
+    <string name="name_score"><b>Name :</b></string>
+    <string name="year_score"><b>Year :</b></string>
+    <string name="branch_score"><b>Branch :</b></string>
+    <string name="set_score"><b>Set :</b></string>
+    <string name="attempts_score"><b>Attempts :</b></string>
+
+
+    <string name="edit_text_hint">Answer here</string>
+    <string name="s1_que_1">When was the First version of Microsoft released?</string>
+    <string name="s1_que1_r1">November 28, 1985</string>
+    <string name="s1_que1_r2">January 28, 1985</string>
+    <string name="s1_que1_r3">November 20, 1985</string>
+
+    <string name="s1_que_2">What is the free disk space in windows 1.01?</string>
+    <string name="s1_que2_r1">30024k</string>
+    <string name="s1_que2_r2">39821k</string>
+    <string name="s1_que2_r3">30023k</string>
+
+    <string name="s1_que_3">Do <b>v1.01</b> computer have double-sided disk or not?</string>
+    <string name="s1_que3_r1">Yes</string>
+    <string name="s1_que3_r2">No</string>
+
+    <string name="s1_que_4">What is the command used for <b>size</b> in windows version 2.0?</string>
+    <string name="s1_que4_ans">Alt+F8</string>
+
+    <string name="s1_que_5">Which is the First version, Where we can minimize and maximize window?</string>
+    <string name="s1_que5_r1">Windows 1.01</string>
+    <string name="s1_que5_r2">Windows 10</string>
+    <string name="s1_que5_r3">Windows 2.0</string>
+
+    <string name="s1_que_6">On May 22, 1990 which version of windows was released?</string>
+    <string name="s1_que6_ans">Windows 3.0</string>
+
+    <string name="s1_que_7">What is the game created using v3.0 of windows?</string>
+    <string name="s1_que7_r1">Revesi</string>
+    <string name="s1_que7_r2">Sudoku</string>
+    <string name="s1_que7_r3">Snake game</string>
+
+    <string name="s1_que_8">The storage files which are maintained in the Windows 3.0 will be in the form of?</string>
+    <string name="s1_que8_r1">Bits</string>
+    <string name="s1_que8_r2">Bytes</string>
+    <string name="s1_que8_r3">Docs</string>
+
+    <string name="s1_que_9">Which version of the windows runs the programs in protected mode?</string>
+    <string name="s1_que9_ans">Windows 3.0</string>
+
+    <string name="s1_que_10">Windows 3.1 was introduced on…?</string>
+    <string name="s1_que10_r1">Jan 31 1990</string>
+    <string name="s1_que10_r2">Feb 01 1991</string>
+    <string name="s1_que10_r3">April 06 1992</string>
+    <string name="s1_que10_r4">June 04 1991</string>
+
+    <string name="s1_que_11">What is the default drive in which all the programs are installed?</string>
+    <string name="s1_que11_r1">D Drive</string>
+    <string name="s1_que11_r2">System Drive</string>
+    <string name="s1_que11_r3">C Drive</string>
+
+    <string name="s1_que_12">Which editor is used to write a C-Program in the version 3.2X?</string>
+    <string name="s1_que12_r1">Notepad</string>
+    <string name="s1_que12_r2">MS-DOS</string>
+    <string name="s1_que12_r3">Command Prompt</string>
+
+    <string name="s1_que_13">On August 24, 1995 the version of windows name is changed as?</string>
+    <string name="s1_que13_ans">Windows 95</string>
+
+    <string name="s1_que_14">Which version of window can surf on the internet?</string>
+    <string name="s1_que14_r1">Windows1.01</string>
+    <string name="s1_que14_r2">Windows 95</string>
+    <string name="s1_que14_r3">Windows 8</string>
+
+    <string name="s1_que_15">In which year Microsoft Windows98 was released?</string>
+    <string name="s1_que15_ans">July 25 1998</string>
+
+    <string name="s1_que_16">In Windows 98, What can be changed?</string>
+    <string name="s1_que16_cb1">Color</string>
+    <string name="s1_que16_cb2">Background</string>
+    <string name="s1_que16_cb3">Sound</string>
+    <string name="s1_que16_cb4">Font</string>
+
+    <string name="s1_que_17">Which version of windows is called as the PC Mode?</string>
+    <string name="s1_que17_ans">Windows 2000</string>
+
+    <string name="s1_que_18">Which version of windows was released on Sep 14, 2000?</string>
+    <string name="s1_que18_r1">Windows 10</string>
+    <string name="s1_que18_r2">Windows ME</string>
+    <string name="s1_que18_r3">Windows XP</string>
+
+    <string name="s1_que_19">In which year, Windows 7 was released?</string>
+    <string name="s1_que19_r1">Oct 22, 2009</string>
+    <string name="s1_que19_r2">Aug 22, 2005</string>
+    <string name="s1_que19_r3">Sep 22, 2009</string>
+
+    <string name="s1_que_20">The advanced feature of Windows 7 is?</string>
+    <string name="s1_que20_cb1">Touch</string>
+    <string name="s1_que20_cb2">Handwriting recognition</string>
+    <string name="s1_que20_cb3">Face recognition</string>
+    <string name="s1_que20_cb4">Fingerprint recognition</string>
+
+    <string name="s1_que_21">In which case, Windows NT 4.0 was less user-friendly than Windows 95</string>
+    <string name="s1_que21_cb1">Maintenance</string>
+    <string name="s1_que21_cb2">Management tasks</string>
+    <string name="s1_que21_cb3">Performance</string>
+
+    <string name="s1_que_22">Windows ME is a combination model of</string>
+    <string name="s1_que22_cb1">PC</string>
+    <string name="s1_que22_cb2">Laptop</string>
+    <string name="s1_que22_cb3">None</string>
+
+    <string name="s1_que_23">In Windows ME, ME stands for ?</string>
+    <string name="s1_que23_ans">Millennium Edition</string>
+
+    <string name="s1_que_24">In which version of windows, Authentication methods were introduce?</string>
+    <string name="s1_que24_r1">Windows 10</string>
+    <string name="s1_que24_r2">Windows 8</string>
+    <string name="s1_que24_r3">Windows 7</string>
+
+    <string name="s1_que_25">When was Windows 10 was released?</string>
+    <string name="s1_que25_r1">June 26, 2015</string>
+    <string name="s1_que25_r2">July 29, 2016</string>
+    <string name="s1_que25_r3">Sep 3, 2017</string>
+
+
+    <string name="s2_que_1">Artificial intelligence have ethical and moral rights?</string>
+    <string name="s2_que1_r1">Yes</string>
+    <string name="s2_que1_r2">No</string>
+    <string name="s2_que1_r3">Could be</string>
+    <string name="s2_que1_r4">Cannot be determined</string>
+
+    <string name="s2_que_2">What was originally called the <b>imitation game</b> by its creator?</string>
+    <string name="s2_que2_r1">The Turing Test</string>
+    <string name="s2_que2_r2">LISP</string>
+    <string name="s2_que2_r3">Logic Theorist</string>
+    <string name="s2_que2_r4">Cybernetics</string>
+
+    <string name="s2_que_3">Turing test is developed by</string>
+    <string name="s2_que3_ans">Alan Turing</string>
+
+    <string name="s2_que_4">Weak AI is</string>
+    <string name="s2_que4_r1">The embodiment of human intellectual capabilities within a computer</string>
+    <string name="s2_que4_r2">A set of computer programs that produce output that would be
+        considered to reflect intelligence if it were generated by humans</string>
+    <string name="s2_que4_r3">The study of mental faculties through the use of mental models implemented on a computer</string>
+    <string name="s2_que4_r4">All of the Above</string>
+
+    <string name="s2_que_5">Which among the following programming languages can be used in A.I</string>
+    <string name="s2_que5_cb1">Lisp</string>
+    <string name="s2_que5_cb2">Python</string>
+    <string name="s2_que5_cb3">XML</string>
+    <string name="s2_que5_cb4">Swift</string>
+
+    <string name="s2_que_6">If A.I passes the turing test,it would give ____ like responses </string>
+    <string name="s2_que6_ans">Human</string>
+
+    <string name="s2_que_7">If a robot can alter its own trajectory in response to external conditions,
+        it is considered to be</string>
+    <string name="s2_que7_r1">Intelligent</string>
+    <string name="s2_que7_r2">Mobile</string>
+    <string name="s2_que7_r3">Open Loop</string>
+    <string name="s2_que7_r4">Non servo</string>
+
+    <string name="s2_que_8">The field that investigates the mechanics of human intelligence is</string>
+    <string name="s2_que8_r1">History</string>
+    <string name="s2_que8_r2">Cognitive Science</string>
+    <string name="s2_que8_r3">Psychology</string>
+    <string name="s2_que8_r4">Sociology</string>
+
+    <string name="s2_que_9">____ uses Artificial intelligence</string>
+    <string name="s2_que9_ans">Tesla</string>
+
+    <string name="s2_que_10">Research scientists all over the world are taking steps towards building
+        computers with circuits patterned after the complex inter connections existing among the human
+        brain\'s nerve cells. What name is given to such type of computers?</string>
+    <string name="s2_que10_r1">Intelligent computers</string>
+    <string name="s2_que10_r2">Smart computers</string>
+    <string name="s2_que10_r3">Neural network computers</string>
+    <string name="s2_que10_r4">No such name yet</string>
+
+    <string name="s2_que_11">Which of the following are the types of artificial intelligence?</string>
+    <string name="s2_que11_cb1">Purely reactive</string>
+    <string name="s2_que11_cb2">Smart computers</string>
+    <string name="s2_que11_cb3">Theory of mind</string>
+    <string name="s2_que11_cb4">None of the Above</string>
+
+    <string name="s2_que_12">Who is considered to be the "father" of artificial intelligence?</string>
+    <string name="s2_que12_r1">Fisher Ada</string>
+    <string name="s2_que12_r2">John McCarthy</string>
+    <string name="s2_que12_r3">Allen Newell</string>
+    <string name="s2_que12_r4">Alan Turning</string>
+
+    <string name="s2_que_13">In order to have ethical and moral rights, AI should be</string>
+    <string name="s2_que13_r1">Observant</string>
+    <string name="s2_que13_r2">Absurdity</string>
+    <string name="s2_que13_r3">Not sensible</string>
+    <string name="s2_que13_r4">Lunacy</string>
+
+    <string name="s2_que_14">Ambiguity may be caused by</string>
+    <string name="s2_que14_r1">Syntactic ambiguity</string>
+    <string name="s2_que14_r2">Multiple word meanings</string>
+    <string name="s2_que14_r3">Unclear antecedents</string>
+    <string name="s2_que14_r4">All of the above</string>
+
+    <string name="s2_que_15">Artificial intelligence a _____ process</string>
+    <string name="s2_que15_ans">Natural</string>
+
+    <string name="s2_que_16">The name of first general purpose mobile robot built is __ </string>
+    <string name="s2_que16_ans">Shakey</string>
+
+    <string name="s2_que_17">The supercomputer <b>Deep Blue</b> defeated the world chess champion in the year</string>
+    <string name="s2_que17_r1">1956</string>
+    <string name="s2_que17_r2">1969</string>
+    <string name="s2_que17_r3">1987</string>
+    <string name="s2_que17_r4">1997</string>
+
+    <string name="s2_que_18"><b>Swiggy</b> is based on which among the following applications of Artificial intelligence?</string>
+    <string name="s2_que18_r1">Purely reactive</string>
+    <string name="s2_que18_r2">Limited memory</string>
+    <string name="s2_que18_r3">Theory of mind</string>
+    <string name="s2_que18_r4">None of the above</string>
+
+    <string name="s2_que_19">Presently which among the following are the applications of Artificial Intelligence?</string>
+    <string name="s2_que19_cb1">Banking</string>
+    <string name="s2_que19_cb2">Cyber security</string>
+    <string name="s2_que19_cb3">Designing</string>
+    <string name="s2_que19_cb4">Emotions</string>
+
+    <string name="s2_que_20">Machines created using Artificial intelligence can respond through</string>
+    <string name="s2_que20_cb1">Human voice</string>
+    <string name="s2_que20_cb2">Designing</string>
+    <string name="s2_que20_cb3">Emotions</string>
+    <string name="s2_que20_cb4">Remote control</string>
+
+    <string name="s2_que_21">First vacuum cleaner was designed in the year</string>
+    <string name="s2_que21_ans">2002</string>
+
+    <string name="s2_que_22">who transfers their innermost thoughts to Android?</string>
+    <string name="s2_que22_r1">Robots</string>
+    <string name="s2_que22_r2">Human</string>
+
+    <string name="s2_que_23">Humans won\'t accept Androids because</string>
+    <string name="s2_que23_r1">They don\'t like</string>
+    <string name="s2_que23_r2">Ruin some people\'s lives</string>
+    <string name="s2_que23_r3">They are more talented</string>
+    <string name="s2_que23_r4">None of the above</string>
+
+    <string name="s2_que_24">Which of the following field uses of A.I</string>
+    <string name="s2_que24_r1">Construction</string>
+    <string name="s2_que24_r2">Education</string>
+    <string name="s2_que24_r3">Both a and b</string>
+    <string name="s2_que24_r4">None of the above</string>
+
+    <string name="s2_que_25">_____ is the advancement of Machine Learning?</string>
+    <string name="s2_que25_ans">Artificial Intelligence</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">student</string>
+
+
+    <string name="hint_email">Enter email address</string>
+    <string name="hint_password">Enter password</string>
+    <string name="hint_password_confirm">Confirm password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="text_signup">Need Sign Up?</string>
+    <string name="text_signin">Login</string>
+    <string name="text_forgot_password">Forgot Password?</string>
+
+
+</resources>
